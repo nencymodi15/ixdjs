@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+.Header-navigationContainer{
+  max-width: 390px;
+  border-bottom: 0.7px solid #D4D4D4;
+}
+.Header-navigationContainer img{
+  margin-left: 95px;
+}
+.logotext{
+  text-align: center;
+  font-family: "Ineter";
+  color: #353535;
+  font-size: 15px;
+}
+.logoContainer{
+  padding: 30px;
+  border-bottom:0.5px solid #F5F5F5;
+}
+.Profile-info-container{
+  max-width: 390px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.image-container{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.text-container{
+  text-align: left;
+  margin-left: 20px;
+}
+.text-container h3{
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 20px;
+}
+.text-container p{
+  font-family: "inter";
+  font-weight: 300;
+  font-size: 12px;
+}
+.pronoun{
+  margin-left: 10px;
+  font-family: "ineter";
+  font-size: 12px;
+  color: #353535;
+}
+.ranks-Container{
+  margin-top: 10px;
+  max-width: 390px;
+  display: flex;
+  padding: 10px;
+  column-gap: 120px;
+  justify-content: space-evenly;
+  border-bottom: 0.5px solid #DCDCDC;
+}
+.ranks-Container img{
+  margin-left: 20px;
+}
+.ranks-Container p{
+  margin: 0%;
+  text-align: center;
+}
+.badges-container{
+  max-width: 390px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items:baseline;
+  justify-content: center;
+  column-gap: 10px;
+  padding-bottom: 200px;
+}
+.badges{
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+  row-gap: 10px;
+  box-shadow: 0px 4px 4px 0px grey;
+}
+.badges img{
+  margin-left: 20px;
+}
+.badges h3{
+padding-left: 100px;
+ font-family: "inter";
+ font-size: 12px;
+ color: white;
+ font-weight: 300;
+ box-shadow: 0px 4px 4px 0px #9F9D9E;
+ background-color: #9F9D9E;
+ padding: 20px;
+}
+.badges:first-child h3{
+  border-radius: 20px 0px 0px 20px;
+}
+.badges:nth-child(3) h3{
+  border-radius: 0px 20px 20px 0px;
+}
+.badges:last-child h3{
+  border-radius: 20px 0px 0px 20px;
+}
+.badges span{
+  display: block;
+}
+.footer-navigationContainer{
+  background-color: white;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  max-width: 390px;
+}
+.Footer-navigation{
+  max-width: 390px;
+  border-top: 0.1px solid #DCDCDC;
+}
+.footerUl{
+  min-width: 390px;
+  max-width: 390px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items:baseline;
+  padding:0px;
+}
+
+
+.footerUl a{
+  font-style: none;
+}
+.footerUl p{
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 9px;
+  color: #9F9D9E;
+  margin: 0%;
+}
+.thisPage{
+  padding: 5px;
+  color: #6520D6 !important;
+}
+.footerImage{
+  padding-left: 10px;
+}
+.footerImageE{
+  padding-left: 7px;
+}
+.footerImageC{
+  padding-left: 12px;
+}
+.footerImageY{
+  padding-left: 12px;
+}
